@@ -77,9 +77,6 @@ Invalid query values return `400 Bad Request`; a missing product returns `404 No
 ## Database
 `database/schema.sql` creates `products(id, name, description, price, image_url, category, stock, created_at)`, with constraints and indexes. `database/seed.sql` inserts twelve sample products across Fashion, Electronics, Home & Living, Beauty, and Lifestyle. `database/init_db.py` initializes `database/catalogue.db`.
 
-## Screenshots
-Run the application and capture the live product listing and product-details modal in your browser for submission evidence. The screenshots should show the current redesigned interface.
-
 ## Git repository submission
 ```bash
 git init
@@ -89,10 +86,9 @@ git commit -m "Build full-stack product catalogue"
 Create an empty GitHub/GitLab repository, then:
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git remote add origin https://github.com/niiearthic/commerce-catalogue.git
 git push -u origin main
 ```
-Replace the placeholder URL with your own repository URL.
 
 ## Project structure
 ```text
@@ -106,8 +102,6 @@ commerce_catalogue/
 ├── backend/README.md
 └── screenshots/ (add your live application screenshots here)
 ```
-
-**Scope:** This is Part 1 only. Shopping cart, authentication/authorization, migrations, logging, and monitoring are later-stage additions and are not claimed as implemented.
 
 
 ## Product photography
