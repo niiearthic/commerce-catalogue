@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forma Market — Good finds for everyday life</title>
+<meta name="description" content="A thoughtful mix of fashion, tech, home, beauty and everyday finds.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="announcement">A little something for your everyday <span>·</span> Explore the latest finds</div>
+<header class="topbar"><a class="brand" href="/"><span class="brand-symbol">f</span><span>forma<span class="brand-light"> market</span></span></a><nav><a class="active" href="#products">Shop all</a><a href="#about">About us</a></nav><a class="header-cta" href="#products">Discover the edit <span>↗</span></a></header>
+<main id="catalogue">
+<section class="hero"><div class="hero-copy"><p class="eyebrow">THE GOOD FINDS DEPARTMENT</p><h1>Little things.<br><em>Big everyday energy.</em></h1><p class="hero-text">A mix of things we love — from what you wear to what makes your space feel like yours.</p><a class="hero-link" href="#products">Shop the collection <span>↓</span></a><div class="hero-foot"><span>01 / 05</span><span>Fashion · Tech · Home · Beauty · More</span></div></div><div class="hero-photo"><img src="https://media.voguearabia.com/photos/6942597d9813f670894e0551/2:3/w_1920,c_limit/GettyImages-2250748211.jpg" alt="Fashion editorial selected for the Forma Market collection"><div class="photo-note"><span>THE CURRENT EDIT</span><strong>Made for<br>your kind of day.</strong></div><span class="photo-index">FORM / 001</span></div></section>
+<section class="category-strip" aria-label="Shop by category"><span>IN THE MIX</span><a href="#products" data-jump="Fashion">Fashion ↗</a><a href="#products" data-jump="Electronics">Electronics ↗</a><a href="#products" data-jump="Home & Living">Home & Living ↗</a><a href="#products" data-jump="Beauty">Beauty ↗</a><a href="#products" data-jump="Lifestyle">Lifestyle ↗</a></section>
+<section class="catalogue-head" id="products"><div><p class="eyebrow">THE COLLECTION</p><h2>Good finds, all in one place.</h2><p class="section-note">A little bit of everything. A lot to like.</p></div><span id="count">Loading the good stuff…</span></section>
+<section class="toolbar"><label class="search"><span>⌕</span><input id="search" placeholder="What are you looking for?" type="search"><kbd>⌘ K</kbd></label><div class="filters"><select id="category"><option value="">All categories</option></select><select id="sort"><option value="featured">Sort: Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="name">Name: A to Z</option></select></div></section>
+<div id="error" hidden></div><section class="grid" id="grid"></section><section class="empty" id="empty" hidden><h3>Nothing here just yet.</h3><p>Try another search or browse all categories.</p><button id="clear">Show me everything</button></section>
+<section class="about" id="about"><div class="about-mark">f.</div><div><p class="eyebrow">A GOOD PLACE TO START</p><h2>Not just one thing.<br><em>A little of everything.</em></h2></div><p>We bring together useful, lovely and just-because finds for the many different parts of your day. Browse around. You might find your new favourite.</p></section>
+</main><footer><a class="brand" href="/"><span class="brand-symbol">f</span><span>forma<span class="brand-light"> market</span></span></a><span>Good finds for everyday life.</span><span>© 2026 Forma Market</span></footer>
+<div class="backdrop" id="modal" hidden><article class="modal" role="dialog" aria-modal="true" aria-labelledby="detail-name"><button class="close" id="close" aria-label="Close">×</button><div class="detail-image"><img id="detail-img" alt=""><span>FORMA MARKET / SELECTED FIND</span></div><div class="detail-copy"><p class="eyebrow" id="detail-cat"></p><h2 id="detail-name"></h2><p class="detail-price" id="detail-price"></p><p class="detail-desc" id="detail-desc"></p><div class="stock"><span>● In stock</span><span id="detail-stock"></span></div><button class="primary" id="back">Back to the collection <b>↗</b></button><small>A good find for your everyday.</small></div></article></div>
+<script src="/app.js"></script></body></html>

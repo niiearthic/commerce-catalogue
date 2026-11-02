@@ -1,0 +1,1 @@
+The Flask REST API is implemented in the root `app.py` so the complete application runs with one command: `python app.py`.\n
