@@ -100,7 +100,7 @@ commerce_catalogue/
 ├── frontend/ (index.html, styles.css, app.js)
 ├── database/ (schema.sql, seed.sql, init_db.py, catalogue.db)
 ├── backend/README.md
-└── screenshots/ (add your live application screenshots here)
+└── screenshots/
 ```
 
 
